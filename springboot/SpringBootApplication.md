@@ -161,3 +161,30 @@ private Class<?> deduceMainApplicationClass() {
   
 
   
+
+## SpringApplication 运行阶段
+
+### 加载运行监听器`SpringApplicationRunListeners`
+
+利用Spring工厂加载机制，读取`SpringApplicationRunListener`对象集合，并且封装到组合类`SpringApplicationRunListeners`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
